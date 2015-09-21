@@ -40,11 +40,16 @@ int main(int argc, char** argv) {
 
 		opel.print();
 
+		for (size_t i = 0; i < 3; i++)
+		{
+			opel.accelerate();
+		}
+
 		std::cin.get();
 
-		
-		{
+
 	}
+		
 		/* Car car = carFunc();
 		car.print(); */
 		return 0;
